@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="../Functionality.js"></script>
+ 
+<link rel="stylesheet" href="../Styleweb.css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto:100&display=swap" rel="stylesheet">
+</head>
+<!-- Page asks whether you are joining with or without parent, aren't allowed to join without the presence of one -->
+<body id="ThirdPageBackground">
+    <div class="QuestionBox" id="QuestionBoxBigger">
+        <h2 class="Question" id="QuestionEdit"> Please confirm you are with a parent/legal guardian. Only a Parent/legal guardian can open an account on behalf of a child</h2>
+        <a href="Page 4.html"><button class="ButtonOption" class="ButtonAdding">Yes I am</button></a>
+        <br>
+        <br>
+        <br>
+        <!-- Javascript tag, user can't continue if they state they are without an adult -->
+        <button onclick="NoIamnot()"class="ButtonOption ButtontoLeft">No I am Not</button>
+        <p id="ThirdpageAlertText"></p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<script type="text/javascript" src="../Functionality.js"></script>
+
+<link rel="stylesheet" href="../Styleweb.css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto:100&display=swap" rel="stylesheet">
+</head>
+<!-- Personal Details Page -->
+<body id="FourthPageBackground">
+<!-- Follows Form Fill in Design, with required fill in requirements labeled in placeholders -->
+    <div class="QuestionBox" class="QuestionBoxForForm">
+        <h2 class="QuestionFormEdit"> Tell us About Yourself!</h2>
+        <div class="FormFillinBreak">
+            <label class="FormQuestion">Enter Title</label>
+            <select name id="Select">="Title">
+            <option value="Ms">Ms</option>
+            <option value="Mr">Mr</option>
+            <option value="Miss">Miss</option>
+            <option value="Mrs">Mrs</option>
+            </select>
+        </div>
+        <div class="FormFillinBreak">
+            <label class="FormQuestion">First Name</label>
+            <input id="TextBox1" class="FormFillin" type="text" placeholder="Must Match ID">        
+        </div>
+        <div class="FormFillinBreak">
+            <label class="FormQuestion">Middle Name</label>
+            <input id="TextBox2" class="FormFillin" type="text" placeholder="Enter if on ID">
+        </div>
+        <div class="FormFillinBreak">
+            <label class="FormQuestion">Last Name</label>
+            <input id="TextBox3" class="FormFillin" type="text"placeholder="Must Match ID">
+
+        </div>
+        <div class="FormFillinBreak">
+            <Label class="FormQuestion">Date of Birth</Label>
+            <input id="TextBox4" type="date" id="start" name="trip-start"
+        value="2018-07-22"
+        min="2003-01-01" max="2019-08-30">
+        </div>
+        <!-- Javascript Tag, if a section is not filled out, the user can't continue onto next page -->
+        <div>
+            <button onclick="formFillInAlert()" class="SubmitButton FormFillinBreak">OK</button>
+        </div>
+        <p id="ThirdpageAlertText"></p>
+    </div>
+</body>
+</html>
