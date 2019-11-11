@@ -372,7 +372,7 @@ h2 {
 
   h1 {
     font-size: 35px;
-    margin-left: 10%;
+    margin-left: 6%;
     padding-top: 7%;
     padding-left:3%; 
   }
@@ -403,6 +403,7 @@ h2 {
 
   #AlreadyMember {
     padding-bottom:10px;
+    padding-left:22%;
   }
 
   .QuestionBox {
@@ -597,7 +598,7 @@ h2 {
   }
 
   #CardNumberAlertText{
-    margin-top:2%;
+    margin-top:0%;
     color:rgb(255, 255, 255);
     font-family: 'Montserrat', sans-serif;
     margin-top:-170%;
