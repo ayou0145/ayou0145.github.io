@@ -191,8 +191,8 @@ h2 {
   margin-left:22%;
 }
 
-#FormtoRight{
-  margin-left:31.5%;
+.FormtoRight{
+  margin-left:20.5%;
 }
 
 .FormFillin{
@@ -340,10 +340,10 @@ h2 {
 }
 
 #CardImage{
-  margin-left:43%; 
-  margin-top:-20%;
-  width:200px; 
-  height:80px;
+  margin-left:56%; 
+  margin-top:-300%;
+  width:154px; 
+  height:79px;
 }
  
 @media screen and (max-width: 500px) {
