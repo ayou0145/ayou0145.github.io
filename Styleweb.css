@@ -349,7 +349,7 @@ h2 {
 @media screen and (max-width: 500px) {
   #DollarmitesBackground {
     background-size: 700px 900px; 
-    background-position:-150px -15px;
+    background-position:-175px -15px;
   }
 
   #SecondPageBackground {
@@ -361,7 +361,7 @@ h2 {
   #ThirdPageBackground {
     background-image: url('images/middlepages.jpg');
     background-size: 700px 900px; 
-    background-position:-170px -15px;
+    background-position:-200px -15px;
   }
 
   #lastpageBackground {

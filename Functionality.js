@@ -75,6 +75,6 @@ function CardNumberAlert() {
     if (CardNumber.value == "" || CardPin.value == "" ) {
         document.getElementById('CardNumberAlertText').textContent="Sorry, you cannot create an account without entering your card details"   
     } else {
-        document.location.href = "Page 6.html"
+        document.location.href = "page 6.html"
     }
 }
