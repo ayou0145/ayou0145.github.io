@@ -598,7 +598,7 @@ h2 {
 
   #CardNumberAlertText{
     margin-top:2%;
-    color:red;
+    color:rgb(255, 255, 255);
     font-family: 'Montserrat', sans-serif;
     margin-top:-170%;
   }
