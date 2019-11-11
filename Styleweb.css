@@ -605,16 +605,19 @@ h2 {
   }
 
   #ThirdpageAlertText{
+    color:red;
     padding-left:9%;
     margin-top:-35%;
   }
 
   #PasswordAlertText{
+    color:red;
     margin-top:21%; 
     margin-left:8%;
   }
 
   #UserAlertText{
+    color:red;
     margin-top:-69%; 
     margin-left:8%;
   }
